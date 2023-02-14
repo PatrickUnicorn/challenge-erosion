@@ -34,3 +34,5 @@ def load_pbm(filename: str) -> list[list[int]]:
 ascii = img2ascii(img)
 print(repr(ascii))
 print(ascii)
+
+print(load_pbm('./data/circle-nb.pbm'))
